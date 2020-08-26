@@ -1,0 +1,12 @@
+case1 : importing inv only data to inv only ,std,unified should work fine
+import old version exported data of inv only into inv only migrated proj(scanned or not scanned shld work)
+import old version exported data of inv only into std migrated proj(scanned or not scanned shld work)
+import old version exported data of inv only into new unified project proj(scanned or not scanned) shld work
+
+Case 2: IMport unified data to std and inv only project
+import old version exported data of unified scanner scanned into inv only migrated proj(scanned or not scanned) shld not work)
+import old version exported data of unified scanner_agent scanned into std migrated proj(scanned or not scanned) shld not work
+import old version exported data of  unified agent scanned  into std migrated proj(scanned or not scanned) shld work
+import old version exported data of  unified agent+scanner scanned  into std migrated proj(scanned or not scanned) shld work)
+
+case 3: IMporting std project to migrated inv only and unified should work
